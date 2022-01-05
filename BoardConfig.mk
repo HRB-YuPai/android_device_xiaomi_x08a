@@ -6,6 +6,14 @@
 #
 
 DEVICE_PATH := device/xiaomi/mi_x08a
+SHRP_DEVICE_CODE := clover
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := David_Yu
+SHRP_DEVICE_TYPE := A/B
+SHRP_REC := /dev/block/bootdevice/by-name/boot_a
+SHRP_AB := true
+SHRP_EXPRESS := true
+
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
